@@ -1,0 +1,367 @@
+@media screen and (max-width: 1280px){
+
+* {
+      font-family: 'Montserrat', sans-serif;
+} 
+
+body{
+      background-color: whitesmoke;
+}
+
+/* This is the header */
+.header{
+      margin-left: 10%;
+      margin-right: 10%;
+      background-color: white;
+      display: block;
+}
+
+h1{
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      padding-top: 10%;
+     }
+
+.header_bottom{
+     display: block;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: -5%; 
+}
+
+.intro1{
+      /* border: solid; */
+      margin-left: 55%;
+      position: relative; top: -10%;
+      font-size: 45px;
+      color: #353535;
+      background-color: white;
+      font-weight: 700;
+}
+
+.intro2{
+     margin-left: 20%;
+     margin-right: auto;
+     font-size: 20px;
+     color: #5C5C5C
+}
+
+.intro3{
+      margin-left: 30%;
+      color:#5C5C5C;
+}
+
+/* This is the main */
+.maincontent{
+      padding-top: 10%;
+      margin-top: -5%;
+      margin-left: 10%;
+      margin-right: 10%;
+      background-color: white;
+      display: block;     
+      color: #5C5C5C; 
+}
+
+.maincontent h1{
+      display: flex;
+      align-items: flex-start;
+      width: 30%;
+      margin-top: -2%;
+      margin-left: 20%;
+      margin-bottom: 4%;
+      margin-right: auto;
+}
+
+.content {
+      display: flex;
+      align-items: flex-start;
+      width: 30%;
+      margin-top: 4%;
+      margin-left: 20%;
+      margin-bottom: 2%;
+      margin-right: auto;
+      font-size: 18px;
+
+}
+
+.phone1{
+      float: right; 
+      text-align: center;
+      margin-left: 2%;
+      width: 600px;
+}
+
+video{
+      max-width: 100%;
+}
+
+/* This is the second main */
+.container2{
+     display: block;
+     margin-top: 4%;
+     color:  #5C5C5C;
+}
+
+.end{
+     display: flex;
+     align-items: flex-start;
+     width: 30%;
+     margin-top: 4%;
+     margin-right: 20%;
+     margin-bottom: 4%;
+     margin-left: auto;
+     padding-top: 10%;
+     font-size: 20px;
+     
+}
+
+.end2{
+     display: flex;
+     align-items: flex-start;
+     width: 30%;
+     margin-top: 4%;
+     margin-right: 20%;
+     margin-bottom: 4%;
+     margin-left: auto;
+     font-size: 20px; 
+
+}
+.phone2{
+      float: left;
+      width: 50%;
+      margin-bottom: 5%;
+}
+
+/* This is the last part */
+.container3{
+      display: inline-block;
+      margin-right: 10%;
+      margin-left: 10%;
+      margin-top: -10%;
+      color: #5C5C5C;
+}
+
+.lastpart{
+      width: 100%;
+      font-size: 20px;;
+}
+
+.container4{
+      position: relative;
+      text-align: center;
+      color: #5C5C5C;
+}
+
+.h1img{
+ position: absolute;
+  top: 35%;
+  left: 50%;
+  padding-top: 10%;
+  transform: translate(-50%, -50%); 
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.centered{
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      width: 70%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+}
+
+/* This is the footer */
+.footer{
+      background-color: #2B2B2B;
+      color: white;
+      display: flex;
+      font-size: 20px;
+      font-weight: lighter;
+}
+
+.footerleft{
+      text-align: left;
+      margin-left: 10%;
+      flex-direction: column;
+      display: flex;
+}
+
+.footerleft h1{
+      align-self: flex-start;
+      margin-left: 0%;
+}
+
+.footerright{
+      font-style: italic;
+      text-align: right;
+      margin-right: 10%;
+      margin-top: 10%;
+}
+}
+
+/* This is the media query */
+@media only screen and (max-width: 375px) {
+      .body{
+            width: 100vw;
+            height: 120rem; 
+      }
+ 
+      .voodoo{
+            font-size: 10px;
+      }
+
+      .intro1{
+            font-size: 8px;
+            margin-left: 60%;
+
+      }
+
+      .intro2{
+            font-size: 5px;
+            margin-right: auto;
+            margin-left: 25%;
+            margin-top: -2%;
+            text-align: left; 
+      }
+
+      .intro3{
+            font-size: 5px;
+      }
+
+      .maincontent{
+            display: block;
+      }
+
+      .phone1{
+            float: right;
+            max-width: 50%;      
+      }
+      
+      .maincontent h1, .content {
+            font-size: 5px;
+      }
+
+      .container2 .end, .end2, .lastpart{
+            font-size: 6px;
+      }
+
+      .end2{
+            margin-bottom: 10%;
+      }
+
+      .lastpart{
+            margin-top: 5%;
+            padding-left: 5%;
+      }
+
+      .container4{
+       position: relative;
+      text-align: center
+      }
+
+      .header_bottom{
+            padding-top: 5%;
+      }
+
+      .h1img{
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      padding-top: 10%;
+      transform: translate(-50%, -50%); 
+      font-weight: 800;
+      font-size: 8px;
+      padding-bottom: 5%;
+      }
+
+      .centered{
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      width: 70%;
+      transform: translate(-50%, -50%);
+      font-size: 8px;
+      margin-top: 2%;
+      }
+
+      .footerleft h1 {
+      align-self: flex-start;
+      margin-left: 0%;
+      font-size: 8px;
+      }
+
+      .footerleft a {
+      margin-left: 0%;
+      font-size: 8px;
+      }
+
+     .footerright, a{
+      font-style: italic;
+      margin-right: 10%;
+      font-size: 8px;      
+}
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+
+      body{
+            height: 200rem;
+            width: 100vw;
+      }
+        
+      .intro1{
+            font-size: 15px;
+            margin-left: 60%;
+      }
+
+      .intro2{
+            font-size: 15px;
+            margin-left: 10%;
+      }
+
+      .maincontent h1{
+            font-size: 20px;
+      }
+
+      .content{
+            font-size: 10px;
+      }
+
+      .phone1{
+            width: 300px;
+      }
+
+      .end{
+            font-size: 12px;
+      }
+
+      .end2{
+            font-size: 12px;
+      }
+
+      .lastpart{
+            font-size: 12px;
+            padding-bottom: 2%;
+      }
+
+      .h1img{
+            font-size: 15px;
+      }
+
+      .centered{
+            font-size: 15px;
+      }
+
+      .footerleft{
+            font-size: 12px;
+      }
+
+      .footerright{
+            font-size: 12px;
+      }
+  }
